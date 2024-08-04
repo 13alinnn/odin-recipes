@@ -1,17 +1,40 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
 body {
-    background-color: lightgreen;
+    background-color: bisque;
 }
-.extra {
-    font-weight: bold;
-    font-size: 20px;
+.title {
+    text-align: center;
+    background-color: rgb(0, 255, 255,50%);
+    padding: 20px;
+    margin: 2px auto 20px;
+    display:block;
+    width: 300px;
+    border:3px solid black;
 }
-h5 {
-    font-size: medium;
-    font-weight: lighter;
+.image {
+    display: block;
+    margin: 0px auto 20px;
+    width: 250px;
+    height: auto;
+    border: 2px solid black;
 }
-ul li {
-    color: blue;
-}
-ol li {
-    color: red;
+
+
+
+
+.back{
+    display: block;
+    margin: 0px 20px 10px auto;
+    text-align: center;
+    background-color: cadetblue;
+    font-size: large;
+    padding: 10px;
+    width: 200px;
+    border: 1px solid black;
 }
